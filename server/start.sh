@@ -13,3 +13,4 @@ echo "🚀 Starting Minecraft Server..."
 chmod +x paper.jar
 java -Xmx8192M -Xms8192M -jar paper.jar nogui
 
+
