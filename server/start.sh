@@ -10,7 +10,8 @@ echo "✅ Accepted EULA"
 echo "eula=true" > eula.txt
 
 echo "🚀 Starting Minecraft Server..."
-chmod +x paper.jar
-java -Xmx8192M -Xms8192M -jar paper.jar nogui
+java -Xmx1024M -Xms1024M -jar paper.jar nogui
+
+
 
 
