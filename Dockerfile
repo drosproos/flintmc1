@@ -4,9 +4,11 @@ RUN apt update && apt install -y curl
 
 WORKDIR /server
 
-COPY ./server/start.sh .
-COPY ./server/server.properties .
+COPY ./start.sh .
+COPY ./server.properties .
 COPY ./status.html /status.html
+
+RUN chmod +x start.sh
 
 EXPOSE 25565
 
